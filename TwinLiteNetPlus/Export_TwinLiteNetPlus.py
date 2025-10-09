@@ -189,7 +189,7 @@ resized_img = np.clip(resized_img, 0, 255).astype(np.uint8)
 
 plt.figure(figsize=(14, 7))
 plt.imshow(resized_img)
-plt.title('Green: Driable Area, Red: Lane)')
+plt.title('Green: Driable Area, Red: Lane')
 plt.axis('off')
 plt.show()
 
