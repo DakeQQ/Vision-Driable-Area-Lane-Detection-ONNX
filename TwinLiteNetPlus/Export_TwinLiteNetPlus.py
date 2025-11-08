@@ -93,7 +93,8 @@ with torch.inference_mode():
         input_names=['image'],
         output_names=['area', 'lane'],
         do_constant_folding=True,
-        opset_version=17
+        opset_version=17,
+        dynamo=False
     )
     del model
     del image
